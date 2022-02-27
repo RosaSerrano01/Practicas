@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        let entero=5;
+        let decimal=2.5;
+        
+
+        //const
+        const pi= 3.14;
+        //pi=2.5;
+        console.log("Valor constante :  pi ");
+        //var
+        var edad=25;
+        console.log ("Valor de la variable asignada con var : " + edad);
+        var edad=60;
+        console.log ("Valor de la variable asignada con var : " + edad);
+        var edad=85;
+        console.log ("Valor de la variable asignada con var : "+ edad);
+      
+
+
+
+        //let
+        let nombre="jose";
+        console.log("Valor de variable declarada con let "+ nombre );
+        nombre="Maria";
+        console.log("Valor de variable declarada con let "+ nombre );
+
+        //let nombre ;
+
+        //estructura de control 
+        let val1="25";
+        let val2=15;
+        let result=val1===val2 //igualdad estricta
+
+        if (result){
+
+
+            console.log(true);
+            
+        }
+        else{
+            console.log (false);
+        }
+
+        switch(result)
+        {
+            case true: 
+            console.log ("los valores coinciden");
+            break;
+            case false:
+            console.log("Los valores no coinciden");
+            break;
+            default:
+            console.log("valor no conocido");
+                    
+        }
+
+
+
+        let names= ["jose","maria","pablo"];
+        for(i=0; i<names.length;i++){
+            console.log(names[i]);
+
+
+        }
+    </script>
+</body>
+</html>
